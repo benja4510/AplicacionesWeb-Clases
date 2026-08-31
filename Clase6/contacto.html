@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" aria-label="Ir al Inicio">
+            <img src="./recursos/imagenes/huella.png" alt="logo Huellitas">
+        </a>
+        <nav>
+
+            <a href="./index.html">
+                Inicio
+            </a>
+            <a href="./contacto.html">
+                Contacto
+            </a>
+        </nav>
+
+
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <form action="./contacto.html" method="post">
+            <!--
+                nombre
+                telefono
+                tamaño
+                edad
+                comentario / sobre la mascota            
+            -->
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+
+            <label for="id-telefono">telefono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+
+            <label for="id-tamaño-mascota">tamaño de mascota</label>
+            <select name="tamaño-mascota" id="id-tamaño-mascota">
+                <option value="C">Chico</option>
+                <option value="G">Grande</option>
+                <option value="M">Mediano</option>
+            </select>
+
+            <label for="id-edad">edad</label>
+            <input type="number" name="edad" id="id-edad">
+
+            <label for="id-comentario">comentario mascota</label>
+            <textarea name="comentario" id="id-comentario"></textarea>
+            <!----->
+            <!----->
+            <input type="submit" value="Enviar">
+
+            <button type="reset">
+                Limpiar 
+            </button>   
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@Huellitas" target="_blank">
+                    @Huellitas
+                </a>
+            </li>
+            <li>
+                Bv. San Juan 200 - Bº Nueva Cordoba 
+            </li>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
