@@ -1,0 +1,36 @@
+Comandos de Consola
+
+-cuenta git 
+git config user.name benja4510
+git config user.email benjamindiaz4518@gmail.com
+
+Comandos primera vez (en su casa):
+
+-Instalar NodeJS
+
+-Verificar Instalacion NodeJS:
+node -v en cmd 
+
+-Verificar Instalacion npm:
+npm -v
+
+-Instalar manejador de paquetes pnpm:
+npm i -g pnpm
+
+-Verificar Instalacion pnpm:
+pnpm -v
+
+
+Por proyecto:
+
+-Verificar si no existe el package .json, si no existe ejecutamos:
+pn init 
+
+-Instalar paquete Five Server
+pn add five-server 
+
+-Reinstalar paquetes si existe package .json 
+pn install
+
+-Configurar scripts 
+"dev: five-server"

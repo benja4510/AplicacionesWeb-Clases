@@ -1,0 +1,25 @@
+/*
+Sintaxis
+*/
+
+/*regla de estilo (rule) */
+/*
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+}
+*/
+
+/* selectores de TIPO */
+header{
+    background-color: #552a79; 
+}
+
+body{
+    background-color: green;
+}
+
+footer{
+    background-color: crimson;
+}
+
