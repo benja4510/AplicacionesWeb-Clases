@@ -16,12 +16,17 @@ npm -v
 
 -Instalar manejador de paquetes pnpm:
 npm i -g pnpm
+https://pnpm.io/es/
+https://www.npmjs.com/package/five-server
 
 -Verificar Instalacion pnpm:
 pnpm -v
 
 
 Por proyecto:
+
+-Instalar manejador de paquetes pnpm:
+npm i -g pnpm
 
 -Verificar si no existe el package .json, si no existe ejecutamos:
 pn init 
