@@ -31,6 +31,10 @@ npm i -g pnpm
 -Verificar si no existe el package .json, si no existe ejecutamos:
 pn init 
 
+entrar directorio carperta
+cd arrastrar clase -enter
+pn dev
+
 -Instalar paquete Five Server
 pn add five-server 
 
