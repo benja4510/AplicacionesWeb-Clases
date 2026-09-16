@@ -1,0 +1,128 @@
+/*
+Sintaxis
+*/
+
+/*regla de estilo (rule) */
+/*
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+}*/
+*{
+    box-sizing: border-box;
+}
+
+/*importar fuente*/
+
+@font-face {
+    font-family: Poppins ;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* selector UNIVERSAL 
+*{
+    outline: 1px red solid;
+}
+*/
+
+/*reseteo*/
+html,body{
+    padding: 0;margin: 0;
+}
+
+/*tipos genericos arriba, organizarlos por bloques/*
+
+
+
+/* selectores de TIPO */
+
+html{
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(14, 72, 77);
+}
+
+
+
+header{
+    background-color: yellow; 
+}
+
+header{
+    background-color: red; 
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/*selector de CLASE 
+.vinculos{
+    color: #ffffff;
+}*/
+
+.encabezado-principal{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    background-color: rgb(9, 105, 76);
+    justify-content: space-between;
+    padding: 5px 10px 20px 10px;
+    border-bottom: 4px solid #2b8d6c;
+
+}
+
+.encabezado-principal img{
+   width: 50px;
+   height: auto;
+}
+
+article picture img {
+    width: 100%;       /* Ocupa el ancho máximo de su contenedor (el article) */
+    max-width: 300px;  /* Evita que se haga más grande de 300px  */
+    height: auto;      /* Mantiene la proporción para que no se deforme */
+    display: block;
+}
+
+.encabezado-principal .vinculos a{
+    color: #ffffff;
+}
+
+
+.contenido-principal{
+   
+}
+.contenido-principal .contenedor-form{
+    padding: 20px 20%;
+    
+}
+
+
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-principal{
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    background-color: rgb(9, 105, 76);
+    justify-content: space-between;
+    padding: 5px 10px 20px 10px;
+    border-bottom: 4px solid #2b8d6c;
+
+}
+
+/*ATRIBUTOS*
+[href]{
+
+}
+
+/*prohibido usar id (numerales)
+#contactos{
+}
+
