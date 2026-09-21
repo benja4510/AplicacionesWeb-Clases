@@ -1,0 +1,14 @@
+git config user.name benja4510
+git config user.email benjamindiaz4518@gmail.com
+crear clase..
+en cmd : cd clase... enter
+Instalar pnpm -> npm i -g pnpm
+Inicializar proyecto -> pn init
+Instalar un paquete de servidor -> pn add five-server
+Configurar scripts en package.json -> “dev”: “five-server”
+Crear archivo de configuración de five-server .fiveserverrc
+{
+      “root”:”src”
+}
+Crear carpeta src y copiar proyecto de la actividad 5
+Correr proyecto -> pn dev
