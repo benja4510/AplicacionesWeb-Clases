@@ -10,5 +10,4 @@ Crear archivo de configuración de five-server .fiveserverrc
 {
       “root”:”src”
 }
-Crear carpeta src y copiar proyecto de la actividad 5
 Correr proyecto -> pn dev
